@@ -1,0 +1,175 @@
+/*----- default css --------*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.hr-style {
+    width:60px;
+    border:5px dotted #fff;
+    border-bottom: none;
+}
+
+/* -----header start--------- */
+
+header {
+    background: url(./image/banner.jpg);
+    background-position: center;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+header .navbar{
+    background-color: rgba(19, 17, 17, 0.3);
+    /* position:fixed;
+    top:0;
+    left:0;
+    right:0;    
+
+    z-index: 1000; */
+}
+
+.navbar-brand img:hover {
+    transform:scale(1.1);
+    transition:0.4s;
+}
+
+header .nav-link:hover {
+    background: #2980b9;
+    border-radius:10px;
+    transform:scale(1.1);
+    transition:0.4s;
+}
+
+header .banner-container {
+    height:100vh;
+}
+
+header .banner-container .banner-content h1 {
+    font-size:3.5rem;
+    background-color:rgba(7,101,189,0.3);
+    font-family: 'Handlee', cursive;
+}
+
+.banner-content button {
+    transition:0.4s;
+}
+
+.banner-content button:hover {
+    /* transition:0.4s; */
+    transform:scale(1.1);
+}
+
+.nav-menu-icon i {
+    transition:0.2s;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.7),-4px -4px 8px rgba(0,0,0,0.7);
+}
+
+.nav-menu-icon i:hover {
+    transform:scale(1.1);
+    box-shadow: 4px 4px 8px rgba(0,0,0,1),-4px -4px 8px rgba(0,0,0,1);
+}
+ /* -----header ends--------- */
+
+ /* ----------card section starts-------- */
+.card-sec {
+    background-color:#e8ded2;
+}
+
+.card-sec .card {
+    height:250px;
+    border:1px solid rgb(219, 28, 171);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1),-4px -4px 8px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.card-sec .card:hover {
+    transform:scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3),-4px -4px 8px rgba(0,0,0,0.3);
+}
+ /* ----------card section ends-------- */
+
+ /* ----------Tutorial section starts-------- */
+.tutorial-sec {
+    background:#7ba6c4;
+}
+
+.tutorial-sec .card {
+    border:1px solid rgb(219, 28, 171);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1),-4px -4px 8px rgba(0,0,0,0.1);
+    transition:0.4s;
+}
+
+.tutorial-sec .card:hover {
+    transform:scale(1.05);
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.3),-4px -4px 8px rgba(0,0,0,0.3);
+}
+/* ----------Tutorial section ends-------- */
+
+/* ----------feedback section starts-------- */
+.feedback-sec {
+    background-color:#5eaaa8;
+}
+
+.feedback-img-style {
+    max-width:120px;
+    height: 120px;
+}
+/* ----------feedback section ends-------- */
+
+/* ----------contact section starts-------- */
+.contact-sec {
+    background-color:#5eaaa8;
+}
+/* ----------contact section ends-------- */
+
+/* ----------footer section starts-------- */
+footer {
+background-color:#056676;
+
+}
+
+footer a {
+    color:#fff;
+    text-decoration:none;
+    transition:0.4s;
+}
+
+footer div .home:hover {
+    color:#000;
+    transform:scale(1.5);
+}
+
+footer a i {
+    transition:0.4s;
+}
+
+footer a i:hover {
+    color:#000;
+    transform:scale(1.5);
+}
+/* ----------footer section ends-------- */
+
+
+/* For Mobile and small screen  */
+
+@media only screen and (max-width:768px) {
+    header .nav-link {
+        margin-bottom:5px;
+        background-color:rgba(0,0,0,0.7);
+    }
+
+    header .banner-container .banner-content h1 {
+        font-size:2.5rem;
+    }
+}
+ 
